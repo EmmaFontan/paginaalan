@@ -6,6 +6,30 @@
 
 .textoprimeraimagen {
     font-size: 25px;
+    font-family: Mandali-Regular;
+    src: url(../assets/font/Mandali-Regular.ttf);
+    
+
+}
+.titulos {
+    text-shadow: 4px 4px 6px rgba(80, 76, 76, 0.5);
+    font-size: 5rem;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    font-family: Rokkitt-Italic-VariableFont_wght;
+    src: url(../assets/font/Rokkitt-Italic-VariableFont_wght.ttf);
+}
+
+.boton {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    font-size: 20px; /* Ajusta el tamaño del texto */
+    padding: 10px 20px; /* Ajusta el relleno (padding) del botón */
+
 }
 
 .cuadro-texto {
@@ -36,6 +60,52 @@
 
 .separador-vertical {
     width: 2px;
-    background-color: #00bfff; /* Color celeste */
+    background-color: hwb(195 0% 0%); /* Color celeste */
     margin: 0 20px; /* Espacio entre las columnas */
 }
+
+.piedepagina {
+    background-color: #918d8d33;
+    margin-top: 30px;
+}
+ul.list-unstyled {
+    padding-left: 20px; /* Ajusta el espaciado para los puntos cuadrados */
+}
+
+ul.list-unstyled li {
+    margin-bottom: 10px; /* Espaciado entre cada elemento de la lista */
+}
+
+ul.list-unstyled li i {
+    color: hsl(192, 100%, 60%); /* Color de los puntos cuadrados */
+    margin-right: 10px; /* Espaciado entre los puntos cuadrados y el texto */
+}
+ul.list-unstyled li {
+    margin-bottom: 80px; /* Espaciado entre cada elemento de la lista */
+    font-weight: bold; /* Hace que el texto esté en negrita */
+}
+
+
+.puntostexto {
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    margin-left: 10px;
+}
+ul.list-unstyled li:nth-child(1) i {
+    color: rgb(0, 162, 255); /* Color para el primer punto cuadrado */
+}
+
+ul.list-unstyled li:nth-child(2) i {
+    color: rgb(0, 238, 255); /* Color para el segundo punto cuadrado */
+}
+
+ul.list-unstyled li:nth-child(3) i {
+    color: rgba(0, 255, 255, 0.568); /* Color para el tercer punto cuadrado */
+}
+ul.list-unstyled li:nth-child(4) i {
+    color: rgba(1, 247, 255, 0.164); /* Color para el tercer punto cuadrado */
+}
+
+
