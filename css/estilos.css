@@ -5,16 +5,23 @@
 }
 
 .textoprimeraimagen {
-    font-size: 25px;
+    margin-top: 70px;
+    font-size: 30px;
     font-family: Mandali-Regular;
     src: url(../assets/font/Mandali-Regular.ttf);
     
 
 }
+
+.token {
+    font-size: 25px;
+    font-family: Mandali-Regular;
+    src: url(../assets/font/Mandali-Regular.ttf);
+}
 .titulos {
     text-shadow: 4px 4px 6px rgba(80, 76, 76, 0.5);
     font-size: 5rem;
-    margin-top: 50px;
+    margin-top: 15px;
     margin-bottom: 30px;
     letter-spacing: 2px;
     margin-left: 10px;
@@ -36,7 +43,7 @@
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    padding: 20px;
+    padding: 10px;
     border-radius: 30px;
     border: 2px solid #21c8ff; /* Borde celeste */
     box-shadow: 0 0 10px 5px #00bfff; /* Sombreado celeste intenso */
@@ -108,4 +115,47 @@ ul.list-unstyled li:nth-child(4) i {
     color: rgba(1, 247, 255, 0.164); /* Color para el tercer punto cuadrado */
 }
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd; /* Línea separadora */
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.phase {
+    flex: 0 0 calc(33.333% - 20px); /* Tamaño de cada columna */
+    margin-bottom: 20px;
+}
+.phase h2 {
+    text-align: center;
+}
+.phase ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.phase ul li {
+    margin-bottom: 10px;
+}
 
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+    .phase {
+        flex: 0 0 calc(100% - 20px); /* Una columna en dispositivos móviles */
+    }
+}
